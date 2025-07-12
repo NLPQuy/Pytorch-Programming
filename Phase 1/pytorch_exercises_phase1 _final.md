@@ -351,9 +351,6 @@ def solve_linear_system():
     # TODO: Verify solution by computing A @ x and comparing with b
     # TODO: Handle edge cases (singular matrices)
     
-    A = torch.tensor([[2.0, 1.0], [1.0, 3.0]])
-    b = torch.tensor([5.0, 7.0])
-    
     # Your implementation here
     # solution = ...
     # verification = ...
@@ -376,13 +373,12 @@ def create_polynomial_coefficients():
     Create coefficient tensors for polynomial: 3x³ + 2x² - x + 5
     Then evaluate at points x = [0, 1, 2, 3, 4]
     """
-    # TODO: Create coefficient tensor [3, 2, -1, 5]
+    # TODO: Create coefficient tensor [3, 2, -1, 5], highest degree first
     # TODO: Create evaluation points tensor
     # TODO: Use tensor operations to evaluate polynomial
     # TODO: Compare with manual calculation
     
-    coeffs = torch.tensor([3.0, 2.0, -1.0, 5.0])  # highest degree first
-    x_vals = torch.tensor([0.0, 1.0, 2.0, 3.0, 4.0])
+    
     
     # Method 1: Using polynomial evaluation
     def evaluate_polynomial(x, coefficients):
