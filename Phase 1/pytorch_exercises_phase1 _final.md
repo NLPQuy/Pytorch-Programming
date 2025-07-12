@@ -140,6 +140,7 @@ empty_X = torch.empty(shape_parameters)  # comment describing purpose
 - Variant 8: Create a tensor from a longer 1D list containing 10 elements
 - Variant 9: Create a tensor from a 3×3 identity matrix generated using NumPy (np.eye(3))
 - Variant 10: Create a tensor from a 2D list of negative integers [[-1, -2], [-3, -4]] and convert it to a NumPy array
+
 **Practice Set 8: torch.empty() - 10 REQUIRED variants**
 - Variant 1: Create empty tensor with shape 2D (3,4)
 - Variant 2: Create empty tensor with shape 3D (2,3,4)
