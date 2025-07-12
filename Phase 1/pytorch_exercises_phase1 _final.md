@@ -130,17 +130,16 @@ empty_X = torch.empty(shape_parameters)  # comment describing purpose
 - Variant 10: Create 20 evenly spaced points from 0.5 to 1.5
 
 **Practice Set 7: torch.tensor() - 10 REQUIRED variants**
-- Variant 1: Create from 1D integer list [1, 2, 3]
-- Variant 2: Create from 2D nested integer list [[1, 2], [3, 4]]
-- Variant 3: Create from 1D float list [1.0, 2.0, 3.0]
-- Variant 4: Create from 2D nested float list (2x3 matrix)
-- Variant 5: Create from boolean list [True, False, True]
-- Variant 6: Create from 3D nested list (2x2x2 structure)
-- Variant 7: Create from single element list [1]
-- Variant 8: Create from longer 1D list (10 elements)
-- Variant 9: Create from 3x3 identity pattern [[1,0,0], [0,1,0], [0,0,1]]
-- Variant 10: Create from 2D negative values [[-1, -2], [-3, -4]]
-
+- Variant 1: Create a tensor from a 1D integer list [1, 2, 3]
+- Variant 2: Create a tensor from a 2D nested integer list [[1, 2], [3, 4]]
+- Variant 3: Convert a NumPy array np.array([1.0, 2.0, 3.0]) to a tensor
+- Variant 4: Convert a 2D float matrix (2×3) from a NumPy array to a tensor
+- Variant 5: Create a boolean tensor from the list [True, False, True] and convert it to a NumPy array
+- Variant 6: Create a 3D tensor from a nested list with shape (2×2×2), then convert it to a NumPy array
+- Variant 7: Convert a NumPy array with a single element np.array([1]) to a tensor
+- Variant 8: Create a tensor from a longer 1D list containing 10 elements
+- Variant 9: Create a tensor from a 3×3 identity matrix generated using NumPy (np.eye(3))
+- Variant 10: Create a tensor from a 2D list of negative integers [[-1, -2], [-3, -4]] and convert it to a NumPy array
 **Practice Set 8: torch.empty() - 10 REQUIRED variants**
 - Variant 1: Create empty tensor with shape 2D (3,4)
 - Variant 2: Create empty tensor with shape 3D (2,3,4)
